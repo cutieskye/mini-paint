@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net5.0-windows</TargetFramework>
+		<RootNamespace>Mini_Paint</RootNamespace>
+		<UseWPF>true</UseWPF>
+		<ApplicationIcon>Paint.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Paint.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Paint.ico" />
+	</ItemGroup>
+
+</Project>
